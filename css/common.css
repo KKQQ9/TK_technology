@@ -1,0 +1,259 @@
+.max-width{
+	margin: 0 auto;
+	width: 1280px;
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	width: 1050px;
+	box-sizing: border-box;
+}
+.clear::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* header start */
+
+header .top{
+	background-color: rgb(223, 223, 222);
+	font-size: 12px;
+}
+header .container{
+	padding: 0 42px;
+}
+header .container .tab{
+	padding: 11px 0;
+}
+header .container .tab .right a{
+	display: inline-block;
+	padding: 0 16px;
+}
+header .container .nav{
+	text-align: center;
+}
+header .container .nav .logo{
+	padding: 19px 0;
+
+}
+header .container .nav nav ul li{
+	float: left;
+}
+header .container .nav nav a{
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	padding: 28px 19px;
+	border-bottom: 2px solid transparent;
+}
+header .container .nav nav a:hover{
+	background-color: rgb(250, 248, 248);
+    border-color: rgb(60, 156, 211);
+}
+/* footer start */
+footer {
+	position: relative;
+	/* width: auto; */
+	margin: 0 auto;
+	width: 1280px;
+	height: 137px;
+	background: rgb(60, 156, 211);
+	
+}
+footer > .top{
+	padding: 16px 0 24px 0;
+	color: #fff;
+	font-size: 12px;
+}
+footer > .top > .top{
+	margin: 0 auto;
+	width: 147px;
+}
+footer > .top >.bottom{
+	position: absolute;
+	left: 50%;
+	margin-top: 24px;
+	transform: translateX(-50%);
+	
+}
+footer > .top >.bottom ul li{
+    float: left;
+}
+footer > .top >.bottom ul li > a{
+	font-size: 12px;
+    color: #fff;
+}
+footer > .top >.bottom ul li:after{
+	margin: 0 6px;
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	vertical-align: middle;
+	border-radius: 50%;
+	background-color: #fff;
+}
+footer > .top >.bottom ul li:last-of-type:after{
+	display: none;
+}
+footer > .bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+}
+
+footer > .bottom .container{
+	/* width: 990px; */
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+
+/* <=1440px */
+@media (max-device-width:1440px){
+	.max-width{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+	}
+	header .top{
+		font-size: 17px;
+	}
+	header .container .nav nav a{
+		font-size: 18px;
+		padding: 28px 4px;
+	}
+	header .container .min-nav{
+		display: none;
+	}
+	footer > .top{
+		font-size: 16px;
+	}
+	footer > .top img{
+		width: 34px;
+		vertical-align: middle;
+	}
+	footer > .top > .top{
+		width: 197px;
+	}
+	footer > .top >.bottom ul li > a{
+		font-size: 16px;
+	}
+	footer > .bottom .container{
+		font-size: 16px;
+	}
+}
+/* <=1024px */
+@media (max-device-width:1024px){
+	.max-width{
+		width: 1280px;
+	}
+    header .top{
+		font-size: 22px;
+	}
+	header .container .nav nav a{
+		font-size: 20px;
+		padding: 28px 4px;
+	}
+	footer > .top{
+		font-size: 17px;
+	}
+	footer > .top > .top{
+		width: 204px;
+	}
+	footer > .top >.bottom ul li > a{
+		font-size: 20px;
+	}
+}
+/* <=768px */
+@media (max-device-width:768px){
+    .max-width{
+		margin: 0;
+	
+	}
+	.container{
+		margin: 0;
+		width: 100%;
+	}
+	footer > .bottom .container{
+		width: 100%;
+	}
+	header .nav nav .logo,header .nav nav,header .container .nav nav ul li{
+		float: none;
+	}
+    header .container .min-nav{
+		margin: 19px 0;
+		margin-right: 42px;
+		display: inline-block;
+		font-size: 42px;
+	}
+	header .container .nav nav{
+		display: none;
+	}
+	header .container .nav nav a{
+		width: 100%;
+		padding: 14px 0;
+	}
+	header .nav-not{
+		padding: 0;
+	}
+	header .container .nav .logo{
+		margin-left: 42px;
+	}
+}
+/* <=320px */
+@media (max-device-width:320px){
+    header .container .tab,header .container .min-nav{
+		display: none;
+	}
+	header .container .nav .logo{
+		margin: 0;
+		float: none;
+	}
+	header .container .nav .logo > img{
+        width: 800px;
+	}
+	header .nav-not{
+		float: none;
+	}
+	footer > .top img{
+		width: 70px;
+	}
+	footer > .top > .top{
+		width: 454px;
+	}
+
+	footer > .top{
+		position: relative;
+		font-size: 40px;
+	}
+	footer > .bottom ,footer > .top >.bottom{
+		position: static;
+	}
+	footer > .top >.bottom{
+		transform: none;
+	}
+	footer > .bottom .container{
+		font-size: 28px;
+	}
+	footer > .bottom .container{
+		height: auto;
+		line-height: 70px;
+	}
+	footer > .top >.bottom ul li > a{
+		font-size: 50px;
+	}
+    footer {
+		height: auto;
+		
+	}
+	footer > .top{
+		padding: 0;
+	}
+}

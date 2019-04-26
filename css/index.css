@@ -1,0 +1,787 @@
+/* banner */
+/* common style */
+section.banner .banner,section.banner .banner ul li.banner{
+    width: 1280px;
+    height: 544px;
+}
+section.banner .banner ul li a{
+    width: 100%;
+    height: 100%;
+}
+section.banner .banner ul li img{
+    max-width: 100%;
+    height: auto;
+}
+section.banner .banner{
+    position: relative;
+}
+section.banner .banner ul li a,section.banner .banner ol li a{
+    display: inline-block;
+}
+section.banner .banner{
+    position: relative;
+    overflow: hidden;
+}
+section.banner .banner ul{
+    position: relative;
+    left: 0;
+    width: 10000px;
+}
+section.banner .banner ul li,section.banner .banner ol li{
+    float: left;
+}
+section.banner .banner ol.list{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+}
+section.banner .banner ol li.list-btn{
+    padding: 20px 0;
+    display: inline-block;
+}
+section.banner .banner ol li.list-btn a{
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(35, 149, 203);
+}
+section.content .container{
+    padding: 71px 28px 24px;
+
+}
+section.content .container ul li.content{
+    margin: 0 7px;
+    display: inline-block;
+    width: 314px;
+    vertical-align: text-top;
+}
+section.content .container ul li div.top{
+    position: relative;
+    padding:  13px 0 27px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    background: rgb(35, 149, 203);
+    color: #fff;
+}
+section.content .container ul li div.top:after{
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    margin-left: -21.5px;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 12px 21.5px 12px 21.5px;
+    border-style: solid;
+    border-color: rgb(35, 149, 203) transparent transparent transparent;
+}
+section.content .container ul li div.top p:last-of-type{
+    position: relative;
+    font-size: 17px;
+}
+section.content .container ul li div.top p:last-of-type:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    bottom: 0px;
+    width: 30%;
+    height: 0px;
+    border-bottom: 2px solid #fff;
+
+}
+section.content .container ul li div.bottom{
+    padding: 27px 0;
+}
+section.content .container ul li div.news{
+    margin: 0 18px;
+
+}
+section.content .container ul li div.news .content-top{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed rgb(194, 194, 194);
+}
+section.content .container ul li div.news .content-top p{
+    font-weight: bold;
+    line-height: 34px;
+    vertical-align: text-top;
+}
+section.content .container ul li div.news .content-top span{
+    display: inline-block;
+    width: 132px;
+    /* height: 98px; */
+    margin: 0 15px;
+    font-weight: bold;
+    line-height: 30px;
+    vertical-align: text-bottom;
+}
+section.content .container ul li div.news .content-bottom ul li{
+    box-sizing: border-box;
+}
+section.content .container ul li div.news .content-bottom{
+    width: 307px;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 13px;
+}
+section.content .container ul li div.news .content-bottom ul li::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(35, 149, 203);
+    vertical-align: middle;
+    margin-right: 6px;
+}
+section.content .container ul li div.top-2{
+    background-color: rgb(62, 209, 164);
+}
+section.content .container ul li div.top-3{
+    background-color: rgb(137, 94, 163);
+}
+section.content .container ul li div.top-2:after{
+    border-color: rgb(62, 209, 164) transparent transparent transparent;
+}
+section.content .container ul li div.top-3:after{
+    border-color: rgb(137, 94, 163) transparent transparent transparent;
+}
+section.content .container ul li div.product{
+    text-align: center;
+}
+section.content .container ul li div.product .content-top {
+    margin-top: 18px;
+}
+section.content .container ul li div.product .content-top span{
+    display: inline-block;
+    width: 22px;
+    height: 38px;
+    font-size: 42px;
+    color: rgb(224, 224, 227);
+}
+section.content .container ul li div.product .content-bottom p{
+    font-weight: bold;
+}
+section.content .container ul li div.product .content-bottom p:first-of-type{
+    margin: 38px 0 16px;
+    color: rgb(35, 149, 203);
+    font-size: 16px;
+    
+}
+section.content .container ul li div.inf{
+    text-align: center;
+}
+section.content .container ul li div.inf .left{
+    margin-top: 34px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(213, 209, 213);
+}
+section.content .container ul li div.inf .right{
+    font-size: 30px;
+    text-align: right;
+    color: rgb(213, 209, 213);
+}
+section.content .container ul li div.inf .middle{
+    width: auto;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+section.title .title{
+    position: relative;
+    margin: 28px auto;
+    width: 477px;
+    text-align: center;
+}
+section.title .title a{
+    position: relative;
+    padding: 0 8px;
+    display: inline-block;
+    width: 108px;
+    background: #fff;
+}
+section.title .title a:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    left: -74.5px;/*位置为自身长度减去中间被遮挡部分长度/2*/
+    width: 257px;
+    height: 2px;
+    background: rgb(75, 75, 75);
+    z-index: -1;
+}
+section.title .title a p:first-of-type{
+    font-size: 16px;
+    font-weight: bold;
+}
+section.title .title a p:last-of-type{
+    color:rgb(162, 162, 162);
+    font-size: 12px;
+}
+section.about-us{
+    padding: 0 122px 21px;
+    background: url(../images/首页_07.png) no-repeat;
+    background-size: cover;
+} 
+section.about-us p span:nth-of-type(1){
+    text-indent: 24px;
+}
+section.about-us p span:nth-of-type(2){
+    text-align: center;
+}
+section.about-us p{
+    padding: 47px 74px;
+    line-height: 26px;
+}
+section.about-us section.banner{
+    position: relative;
+    width: auto;
+    background: #fff;
+    padding: 0 10px;
+    
+}
+section.about-us div.banner{
+    position: absolute;
+    width: auto;
+    height: 173px;
+
+    
+}
+section.about-us p span{
+    display: block;
+}
+section.about-us div.banner ul li.banner,section.about-us .banner ul li img,section.about-us .banner ul li a{
+    width: 277px;
+    height: 155px;
+}
+section.about-us div.banner ul li:first-child{
+    margin-left: -220px;
+}
+section.about-us div.banner{
+    position: relative;
+}
+section.about-us div.banner ul li a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+section.about-us div.banner{
+    position: relative;
+    overflow: hidden;
+}
+section.about-us div.banner ul{
+    position: absolute;
+    left: 0;
+    width: 10000px;
+}
+section.about-us div.banner ul li{
+    float: left;
+    margin: 10px 11px;
+}
+section.contactus{
+	position: relative;
+	margin: 54px auto;
+	width: 1080px;
+	height: 424px;
+	background-color: #fff;
+}
+section.contactus > .left{
+	width: 430px;
+	height: 100%;
+	/*background-color: olive;*/
+}
+section.contactus > .left > .top{
+	position: relative;
+	height: 187px;
+	margin-bottom: 40px;
+	/*background-color: #f60;*/
+}
+section.contactus > .left > .top > .left{
+	width: 142px;
+	margin-right: 20px;
+	border: 1px solid rgb(238, 238, 238);
+	text-align: center;
+	box-sizing: border-box;
+}
+section.contactus > .left > .top > .left > p{
+	padding: 4px 0;
+}
+section.contactus > .left > .top > .right{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 268px;
+	background-color: #fff;
+}
+section.contactus > .left > .top > .right > ul li{
+    text-indent: 36px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+section.contactus > .left > .top > .right > ul li:nth-of-type(1){
+	background-image: url(../images/首页_03_03.png)
+}
+section.contactus > .left > .top > .right > ul li:nth-of-type(2){
+	background-image: url(../images/首页_03_06.png)
+}
+section.contactus > .left > .top > .right > ul li:nth-of-type(3){
+	background-image: url(../images/首页_03_08.png)
+}
+section.contactus > .left > .top > .right > ul li:nth-of-type(4){
+	background-image: url(../images/首页_03_10.png)
+}
+section.contactus > .left > .top > .right > ul li:nth-of-type(5){
+	background-image: url(../images/首页_03_12.png)
+}
+section.contactus > .left > .top > .right > ul li:nth-of-type(6){
+	background-image: url(../images/首页_03_14.png)
+}
+section.contactus > .right{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 606px;
+	margin-left: 36px;
+	background-color: #fff;
+}
+section.contactus > .right >p{
+	padding-bottom: 4px;
+}
+section.contactus > .right >input:not([type="submit"]){
+	width: 100%;
+	height: 36px;
+	background-color: rgb(249, 248, 248);
+	outline: none;
+	border: 1px dashed rgb(212, 210, 210); 
+}
+section.contactus > .right >p:nth-of-type(2),.contactus > .right>p:nth-of-type(3),.contactus > .right>p:nth-of-type(4){
+	margin-top: 5px;
+}
+section.contactus > .right >textarea{
+	width: 100%;
+	background-color: rgb(249, 248, 248);
+	outline: none;
+	resize: none;
+	border: 1px dashed rgb(212, 210, 210); 
+}
+section.contactus > .right >input[type="submit"]{
+	margin-top: 15px;
+	width: 95px;
+	height: 33px;
+	background-color: rgb(60, 156, 211);
+	color: #fff;
+
+}
+/* <=1440px */
+@media (max-device-width:1440px){
+    section.content .container ul li div.news .content-bottom{
+        font-size: 17px;
+        padding: 28px 7px;
+    }
+	section.content .container{
+        padding: 71px 0px 24px;
+    }
+	section.content .container ul li.content{
+        width: 333px;
+        
+    }
+	section.content .container ul li div.top{
+        font-size: 24px;
+    }
+    
+    section.content .container ul li div.news .content-top{
+        border-bottom-width: 3px;
+    }
+    section.content .container ul li div.news .content-top p{
+        font-size: 20px;
+    }
+    section.content .container ul li div.news .content-top span{
+        font-size: 15px;
+        vertical-align: baseline;
+    }
+    section.content .container ul li div.news .content-top span >span{
+        margin: 0px;
+    }
+    section.content .container ul li div.news .content-bottom{
+        font-size: 15px;
+    }
+    section.content .container ul li div.news .content-bottom ul li::before{
+        width: 7px;
+        height: 7px;
+    }
+    section.content .container ul li div.product .content-top span{
+        width: 40px;
+        height: 60px;
+        font-size: 54px;
+    }
+    section.content .container ul li div.product .content-bottom p:first-of-type{
+        font-size: 24px;
+    }
+    section.content .container ul li div.product .content-bottom p{
+        font-size: 16px;
+    }
+    section.content .container ul li div.inf .middle{
+        font-size: 16px;
+    }
+    section.content .container ul li div.inf .right{
+        font-weight: 900;
+        font-size: 34px;
+    }
+    section.content .container ul li div.inf .left{
+        font-size: 34px;
+        margin-top: 26px;
+        font-weight: 900;
+    }
+    section.title .title a:after{
+        top: 30px;
+        left: -95.5px;
+        width: 328px;
+    }
+    section.title .title a p:first-of-type{
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+    section.title .title a p:last-of-type{
+        font-size: 14px;
+    }
+    section.about-us p{
+        font-size: 20px;
+        padding: 30px 0;
+        line-height: 34px;
+        text-align: center;
+    }
+    section.contactus > .left > .top > .right{
+        width: 292px;
+        font-size: 16px;
+    }
+    section.contactus > .right{
+        font-size: 18px;
+    }
+    section.contactus > .right >textarea{
+        height: 128px;
+        border-width: 2px;
+    }
+    section.contactus > .right >input:not([type="submit"]){
+        border-width: 2px;
+        height: 34px;
+    }
+    section.contactus > .right >input[type="submit"]{
+        font-size: 20px;
+    }
+    section.about-us p span:nth-of-type(1){
+        text-indent: 34px;
+    }
+    section.banner .banner ul li img{
+        width: 1440px;
+    }
+    section.banner .banner,section.banner .banner ul li.banner{
+        width: 1440px;
+    }
+    section.content .container ul li.content{
+        margin: 0 73px;
+
+    }
+}
+/* <=1024px */
+@media (max-device-width:1024px){
+    section.content .container ul li div.news .content-top span{
+        font-size: 18px;
+    }
+    section.about-us p{
+        padding: 37px 74px;
+        font-size: 19px;
+    }
+    section.about-us p span:nth-of-type(1){
+        text-indent: 48px;
+    }
+    section.contactus > .right{
+        font-size: 20px;
+    }
+    section.content .container ul li div.news .content-top span{
+        vertical-align: sub;
+    }
+    section.contactus > .left > .top > .right > ul li{
+        font-size: 22px;
+        background-size: 10% auto;
+        text-indent: 50px;
+    }
+    section.contactus > .left > .top > .right{
+        width: 430px;
+    }
+    section.banner .banner ul li img{
+        width: 1280px;
+    }
+    section.banner .banner,section.banner .banner ul li.banner{
+        width: 1280px;
+    }
+    section.content .container ul li.content{
+        margin: 0 46px;
+
+    }
+}
+/* <=768px */
+@media (max-device-width:768px){
+    section.banner .banner,section.banner .banner ul li.banner{
+        width: 980px;
+        height: auto;
+    
+    }
+    section.about-us section.banner{
+        width: auto;
+    }
+    section.about-us div.banner{
+        width: auto;
+        height: 173px;
+    }
+    section.contactus{
+        width: auto;
+    }
+    section.contactus > .right >input:not([type="submit"]),section.contactus > .right >textarea{
+        box-sizing: border-box;
+    }
+    section.content .container ul li.content{
+        margin: 0;
+        width: 326px;
+    }
+    section.about-us{
+        padding: 0;
+        padding-bottom: 36px;
+    }
+    section.banner .banner ul li img{
+        max-width: 100%;
+        height: auto;
+    }
+    section.about-us div.banner ul li.banner,section.about-us .banner ul li img,section.about-us .banner ul li a{
+        width: 262px;
+    }
+    section.contactus > .right{
+        width: 514px;
+    }
+    section.content .container ul li div.news .content-bottom{
+        padding: 0;
+    }
+    section.content .container ul li div.product .content-top {
+        margin-top: 65px;
+    }
+    section.content .container ul li div.inf img{
+ 
+        margin-top: 29px;
+ 
+    }
+}
+/* <=320px */
+@media (max-device-width:320px){
+    section.banner .banner,section.banner .banner ul li.banner{
+        width: auto;
+        height: auto;
+    
+    }
+    section.banner .banner ol li.list-btn a{
+        display: none;
+    }
+    section.content .container ul li.content{
+        margin: 0;
+        width: 100%;
+    }
+    section.content ul li.content .top > img{
+        width: 150px;
+    }
+    section.content .container ul li div.top{
+        font-size: 52px;
+    }
+    section.content .container ul li div.top{
+        line-height: normal;
+    }
+    section.content .container ul li div.top p:last-of-type{
+        position: relative;
+        font-size: 60px;
+    }
+    section.content .container ul li div.top:after{
+        bottom: -80px;
+        margin-left: -40.5px;
+        border-width: 40px 40.5px 40px 40.5px;
+    }
+    section.content .container ul li div.top p:last-of-type:after{
+        width: 50%;
+        left: 25%;
+    }
+    section.content .container{
+        text-align: center;
+    }
+    section.content .container ul li div.news .content-top p{
+        line-height: normal;
+        font-size: 70px;
+    }
+    section.content .container ul li div.bottom{
+        padding: 70px 0;
+    }
+    section.content .container ul li div.news .content-top span{
+        display: inline-block;
+        width: auto;
+        /* height: 98px; */
+        margin: 0 15px;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 70px;
+    }
+    section.content .container ul li div.news .content-top div > img{
+        margin: 10px 0;
+        width: 400px;
+    }
+    section.content .container ul li div.news .content-top{
+        border-bottom-width: 10px;
+    }
+    section.content .container ul li div.news .content-bottom{
+        width: auto;
+        font-weight: normal;
+        font-size: 46px;
+        text-align: left;
+        line-height: 82px;
+    }
+    section.content .container ul li div.news .content-bottom ul li::before{
+        width: 24px;
+        height: 24px;
+    }
+    section.content .container ul li div.product .content-top img{
+        width: 500px;
+    }
+    section.content .container ul li div.product .content-top span{
+        width: auto;
+        height: auto;
+        font-size: 140px;
+    }
+    section.content .container ul li div.product .content-bottom p:first-of-type{
+        font-size: 70px;
+    }
+    section.content .container ul li div.product .content-bottom p{
+        font-size: 48px;
+    }
+    section.content .container ul li div.inf > img{
+        height: 340px;
+    }
+    section.content .container ul li div.inf .left,section.content .container ul li div.inf .right{
+        font-size: 110px;
+    }
+    section.content .container ul li div.inf .middle{
+        font-size: 48px;
+    }
+    section.content .container ul li div.inf .middle{
+        padding: 0 70px;
+    }
+    section.title .title a p:first-of-type{
+        font-size: 64px;
+        margin-bottom: 10px;
+    }
+    section.title .title a p:last-of-type{
+        font-size: 54px;
+    }
+    section.title .title{
+        width: auto;
+    }
+    section.title .title a{
+    
+        width: auto;
+
+    }
+    section.title .title a:after{
+        top: 86px;
+        left: -300px;
+        width: 1000px;
+        height: 4px;
+    }
+    section.about-us p{
+        padding: 0;
+        font-size: 46px;
+        line-height: 92px;
+    }
+    section.about-us div.banner ul li.banner,section.about-us .banner ul li img,section.about-us .banner ul li a{
+        width: 680px;
+    }
+    section.about-us div.banner ul li:first-child{
+        margin-left: -564px;
+    }
+    section.about-us div.banner ul li.banner,section.about-us .banner ul li img,section.about-us .banner ul li a{
+        height: auto;
+    }
+    section.about-us div.banner{
+        width: auto;
+        height: 412px;
+    }
+    section.contactus > .left > .top > .left{
+        display: none;
+    }
+    section.about-us p span:nth-of-type(1){
+        text-indent: 98px;
+    }
+    section.contactus > .left > .top > .right{
+        width: auto;
+        font-size: 48px;
+    }
+    section.contactus > .left > .top > .right > ul li{
+        margin: 10px;
+        height: auto;
+    }
+    section.contactus > .left{
+        width: auto;
+    }
+    section.contactus > .left > .top > .right > ul li{
+        height: auto;
+        background-size: 12% 100%;
+    }
+    section.contactus > .left > .top > .right > ul li{
+        text-indent: 136px;
+    }
+    section.contactus > .left > .top > .right,section.contactus > .right{
+        position: static;
+    }
+    section.contactus > .left > .top{
+        height: auto;
+    }
+    section.contactus{
+        width: auto;
+        height: auto;
+    }
+    section.contactus > .left > .bottom{
+        text-align: center;
+    }
+    section.contactus > .left > .bottom > img{
+        height: 550px;
+        text-align: center;
+    }
+    section.contactus > .right{
+        width: auto;
+        margin: 0 36px;
+    }
+    section.contactus > .right >input:not([type="submit"]){
+        border-width: 4px;
+        height: 70px;
+    }
+    section.contactus > .right >textarea{
+        height: 214px;
+        border-width: 4px;
+    }
+    section.contactus > .right{
+        font-size: 48px;
+    }
+    section.contactus > .right >input[type="submit"]{
+        font-size: 48px;
+    }
+    section.contactus > .right >input[type="submit"]{
+        width: 170px;
+        height: 80px;
+    }
+    section.contactus > .left > .top > .right > ul li{
+        font-size: 54px;
+    }
+}

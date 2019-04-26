@@ -1,0 +1,403 @@
+.content{
+    background-color: rgb(246, 246, 246);
+}
+.content .photo img{
+    width: 100%;
+}
+.content > nav{
+    font-size: .12rem;
+    margin: .1rem 0 0 1.64rem;
+}
+.description{
+    margin: 0rem 1.12rem .42rem 1.56rem;
+    border-bottom: .01rem solid rgb(180, 180, 180);
+}
+.description .left{
+    float: left;
+    width: 4.84rem;
+    text-align: center;
+    
+}
+.description .left .top{
+    border-width: .01rem;
+    border-style: solid;
+    border-color: transparent rgb(185, 185, 185) rgb(185, 185, 185) transparent;
+    background: url(../images/sousuokuang_03.png) 97% 94% no-repeat ;
+    background-size: .26rem .23rem;
+}
+.description .left .top img{
+    padding-top: .6rem;
+    width: 2.4rem;
+}
+/* .description .left .bottom{
+    border-bottom: .01rem solid rgb(180, 180, 180);
+} */
+.description .left .bottom ul li{
+    float: left;
+    width: .956rem;
+    border-right: .01rem solid rgb(180, 180, 180);
+}
+.description .left .bottom ul li:first-of-type{
+    border-left: .01rem solid rgb(180, 180, 180);
+}
+.description .left .bottom ul li img{
+    width: .94rem;
+}
+.description .right{
+    float: right;
+    width: 5.28rem;
+    padding: .67rem 0 .036rem .51rem;
+    box-sizing: border-box;
+    /* border-bottom: .01rem solid rgb(180, 180, 180); */
+}
+.description .right p:first-of-type{
+    font-size: .25rem;
+    color: rgb(82, 146, 219);
+}
+.description .right p:nth-of-type(2){
+    margin-top: .18rem;
+    font-size: .25rem;
+}
+.description .right p:nth-of-type(3){
+    margin-top: .22rem;
+    margin-bottom: .11rem;
+    font-size: .18rem;
+}
+.description .right ol{
+    padding-bottom: .31rem;
+}
+.description .right ol li{
+   font-size: .12rem;
+   font-weight: bold;
+   line-height: .22rem;
+}
+.content .description .right button{
+    margin-bottom: .24rem;
+    width: 1.70rem;
+    height: .5rem;
+    border-radius: .08rem;
+    font-size: .18rem;
+    color: #fff;
+    margin-left: .48rem;
+}
+.content .description .right button:nth-of-type(1){
+    margin-left: 0;
+    background: rgb(70, 139, 217);
+}
+.content .nav{
+    background: rgb(181, 181, 181);
+}
+.content .nav nav{
+    margin-left: 1.54rem;     
+}
+.content .nav nav a{
+    position: relative;
+    margin: 0 .3rem;
+    display: inline-block;
+    width: .96rem;
+    height: 100%;
+    line-height: .9rem;
+    background: #fff;
+    color: rgb(60, 156, 211);
+    text-align: center;
+    font-size: .2083rem;
+}
+.content .nav nav a:after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    width: .96rem;
+    height: .04rem;
+    background: rgb(60, 156, 211);
+}
+.content .nav nav a:nth-last-of-type(1),.content .nav nav a:nth-last-of-type(2){
+    background: none;
+    color:#fff;
+}
+.content .nav nav a:nth-last-of-type(1):after,.content .nav nav a:nth-last-of-type(2):after{
+    display: none;
+}
+.content .descriptionlistone{
+    padding-top: .7rem;
+}
+.content .descriptionlist{
+    text-align: center;
+    background-color: #fff;
+}
+.content .descriptionlist .title h2{
+    margin-bottom: .17rem;
+    font-size: .3333rem;
+    font-weight: normal;
+    color: rgb(11, 90, 228);
+}
+.content .descriptionlist .title p{
+    font-size: .12rem;
+    color: rgb(182, 182, 182);
+}
+.content .descriptionlist .title p:nth-of-type(1){
+    margin-bottom: .13rem;
+}
+.content .descriptionlist .listindexone{
+    padding: .75rem 0 .52rem 0;
+}
+.content .descriptionlist .listindexone img{
+    width: 2.96rem;
+}
+.content .descriptionlist .listindexone img:first-child{
+    margin-right: .51rem;
+    width: 2.89rem;
+}
+.content .descriptionlist .listindextwo img{
+    margin: .39rem 0 .59rem 0;
+    width: 7.5rem;
+}
+.content .descriptionlist .listindexthree img{
+    margin: .38rem 0 .48rem 0;
+    width: 7.5rem;
+}
+.content .descriptionlist .listindexfour > img{
+    width: 1.85rem;
+    margin-top: 1.21rem;
+    margin-bottom: 1.66rem;
+}
+.content .descriptionlist .listindexfour{
+    position: relative;
+    width: 7.38rem;
+    margin: 0 auto;
+}
+.content .descriptionlist .listindexfour p{
+    position: absolute;
+    width: 1.8rem;
+    font-size: .12rem;
+
+}
+.content .descriptionlist .listindexfour p >img{
+    width: 1.71rem;
+}
+.content .descriptionlist .listindexfour p >span{
+    display: block;
+}
+.content .descriptionlist .listindexfour p >span:last-of-type{
+    text-align: left;
+}
+.content .descriptionlist .listindexfour p >span:first-of-type{
+    font-size: .2rem;
+    color: rgb(74, 90, 242);
+}
+.content .descriptionlist .listindexfour p:first-of-type{
+    left: 0;
+    top: 0;
+}
+.content .descriptionlist .listindexfour p:nth-of-type(2){
+    right: 0;
+    top: 0;
+}
+.content .descriptionlist .listindexfour p:nth-of-type(3){
+    left: 0;
+    bottom: 0;
+}
+.content .descriptionlist .listindexfour p:nth-of-type(4){
+    right: 0;
+    bottom: 0;
+}
+.content .last{
+    padding-bottom: .79rem;
+}
+.content .last .title{
+    margin-bottom: .38rem;
+}
+.parameter{
+    padding: 1.05rem 2.34rem 1.33rem 2.33rem;
+    background-color: #fff;
+}
+table.min{
+    display: none;
+}
+.parameter .left{
+    margin-right: .48rem;
+    width: 1.15rem;
+}
+.parameter .left img{
+    width: 1.15rem;
+}
+.parameter .left img:first-child{
+    margin: 1.65rem 0;
+}
+table {
+    font-size: .12rem;
+}
+.parameter .right > table tr td:nth-of-type(1){
+    padding: .04rem 0;
+    width: .84rem;
+    text-align: center;
+}
+.parameter .right > table tr td:nth-last-of-type(2){
+    width: 1.08rem;
+    text-align: left;
+    text-indent: .2rem;
+}
+.parameter .right > table tr td:nth-last-of-type(1){
+    padding: .04rem 0;
+    padding-right: .2rem;
+    text-indent: .1rem;
+}
+.morebottom{
+    padding: .72rem .91rem 1.12rem 1.27rem;
+    text-align: center;
+}
+.morebottom img{
+    margin: 0 .28rem;
+    width: 1.52rem;
+}
+@media screen and (max-device-width:769px){
+    .content > nav{
+        font-size: .4rem;
+        margin: .1rem 0 0 .1rem;
+    }
+    .description{
+        margin: 0rem 0rem .42rem 0rem;
+        border: none;
+    }
+    .description .left{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    .description .left .top img{
+        padding-top: .6rem;
+        width: 3.4rem;
+    }
+    .description .left .top{
+        border-width: .04rem;
+        border-color: transparent transparent rgb(185, 185, 185) transparent;
+        background: url(../images/sousuokuang_03.png) 90% 90% no-repeat ;
+        background-size: .7rem .7rem;
+    }
+    .description .left .bottom ul li img{
+        width: 2.5rem;
+    }
+    .description .left .bottom ul li{
+        float: left;
+        width: 2.68rem;
+        border-right: .04rem solid rgb(180, 180, 180);
+    }
+    .description .left .bottom ul li:last-of-type{
+        border-color: transparent;
+    }
+    .description .right{
+        float: none;
+        width: auto;
+        padding: .67rem .51rem .036rem .51rem;
+        box-sizing: border-box;
+        border-top: .04rem solid rgb(180, 180, 180);
+        
+    }
+    .description .right p:first-of-type,.description .right p:nth-last-of-type(2){
+        font-size: .7rem;
+    }
+    .description .right p:nth-of-type(3){
+        font-size: .58rem;
+    }
+    .description .right ol li{
+        font-size: .42rem;
+        font-weight: bold;
+        line-height: normal;
+     }
+     .content .description .right button{
+        width: 2.70rem;
+        height: auto;
+        font-size: .48rem;
+    }
+    .content .nav nav a{
+        position: relative;
+        padding: .3rem .3rem;
+        display: inline-block;
+        width: 3.6rem;
+        height: 100%;
+        line-height: normal;
+        text-align: center;
+        font-size: .7rem;
+    }
+    .content .nav nav,.content .nav nav a{
+        margin: 0rem;     
+    }
+    .content .nav nav a:after{
+        width: 4.2rem;
+    }
+    .content .descriptionlist .title h2{
+        font-size: .8rem;
+    }
+    .content .descriptionlist .title p{
+        font-size: .4rem;
+    }
+    .content .descriptionlist .listindexone img{
+        width: 4rem;
+    }
+    .content .descriptionlist .listindexone img:first-child{
+        width: 4rem;
+    }
+    .content .descriptionlist .listindextwo img,.content .descriptionlist .listindexthree img{
+        width: 11.5rem;
+    }
+    .content .descriptionlist .listindexfour > img{
+        display: none;
+    }
+    .content .descriptionlist .listindexfour{
+        position: static;
+        width: auto;
+
+    }
+    .content .descriptionlist .listindexfour p{
+        position: static;
+        width: auto;
+        font-size: .5rem;
+        
+    }
+    .content .descriptionlist .listindexfour p >img{
+        width: 5.71rem;
+    }
+    .content .descriptionlist .listindexfour p >span:first-of-type{
+        font-size: .8rem;
+    }
+    .content .descriptionlist .listindexfour p >span:last-of-type{
+        text-align: center;
+    }
+    table.min{
+        display: block;
+    }
+    table.max{
+        display: none;
+    }
+    .parameter .left{
+        display: none;
+    }
+    .parameter{
+        padding: 1.05rem 0.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    rem 1.33rem 0rem;
+    }
+    table{
+        font-size: .31rem;
+    }
+    .parameter .right > table tr td:nth-last-of-type(2){
+        width: 2.08rem;
+        text-align: right;
+        text-indent: .2rem;
+    }
+    .parameter .right > table tr td:nth-last-of-type(1){
+        padding: .04rem 0;
+        padding-right: 0rem;
+        text-indent: 0rem;
+    }
+    .parameter .right > table tr td:nth-last-of-type(2){
+        text-indent: 0rem;
+    }
+    .morebottom{
+        padding: .72rem .91rem 1.12rem 1.2rem;
+    }
+}
+@media screen and (min-device-width:1024px){
+    .morebottom{
+        padding: .72rem .91rem 1.12rem 1.2rem;
+    }
+}
