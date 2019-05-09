@@ -13,7 +13,11 @@
 	<!-- 当前页面样式 -->
 	<link rel="stylesheet" type="text/css" href="css/index_new.css">
 	<link rel="stylesheet" type="text/css" href="css/common_new.css">
-	
+	<style>
+		.banner ul li a.cur{
+			background-color: green;
+		}
+	</style>
 </head>
 <body>
 	<!-- header start -->
@@ -89,18 +93,18 @@
 	<!-- content start -->
     <section class="content">
 		<section class="container">
-			<div class="banner">
+			<div class="banner" id="first_banner">
 				<ul>
 					<li><a href="#"><img src="./images/首页_02.png" alt=""></a></li>
+					<li><a href="#"><img src="./images/产品4_26.png" alt=""></a></li>
 					<li><a href="#"><img src="./images/首页_02.png" alt=""></a></li>
-					<li><a href="#"><img src="./images/首页_02.png" alt=""></a></li>
-					<li><a href="#"><img src="./images/首页_02.png" alt=""></a></li>
+					<li><a href="#"><img src="./images/产品4_26.png" alt=""></a></li>
                 </ul>
                 <div class="list">
+                   <!--  <a href="#" class="list-btn"></a>
                     <a href="#" class="list-btn"></a>
                     <a href="#" class="list-btn"></a>
-                    <a href="#" class="list-btn"></a>
-                    <a href="#" class="list-btn"></a>
+                    <a href="#" class="list-btn"></a> -->
                 </div>
                 
 			</div>
@@ -180,8 +184,8 @@
 						<span>广州市TK科技有限公司是领先的监控产品供应商和解决方案服务商，面向全球提供领先的网络视频监控系列产品及专业的行业解决方案。</span>
 						<span>TK公司自创立以来, 一直持续加大研发投入和不断致力于技术创新。现拥一批技术尖端的研发团队，创造安防行业众多高品质、高性价比的精品持续为客户创造最大价值。</span>
 					</p>
-					<section class="banner">
-						<div class="banner">
+					<section class="banner" >
+						<div class="banner" id="second_banner">
 							<ul>
 								<li class="banner"><a href="#"><img src="./images/首页_28.png" alt=""></a></li>
 								<li class="banner"><a href="#"><img src="./images/首页_28.png" alt=""></a></li>
@@ -260,7 +264,7 @@
         </div>
 	</footer>
 	<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"/></script>
-	<script>
+	<!-- <script>
 		let lis = $('#crosswalk li');
 		console.log(lis);
 		for(let i=0;i<lis.length;i++) {
@@ -294,6 +298,56 @@
 			}
 		});
 
+	</script> -->
+	<script>
+		let banner = $('#first_banner ul');
+		let list = $('#first_banner ul li');
+		let btn = $('#first_banner .list');
+		console.log(banner);
+		console.log(list);
+		console.log(btn)
+		let index = 0;
+        for (var i = 0; i < list.length; i++) {
+        	let span = $('<a class="list-btn">');
+        	btn.append(span);
+        	console.log(i)
+        }
+        let spans = $('#first_banner .list a');
+        spans.eq(index).addClass('cur');
+        function run(){
+        	if(index===list.length) index = 0;
+        	console.log(index)
+        	banner.animate({
+        		left: -1 * index * 14.4 + 'rem'
+        	},1000)
+        	spans.eq(index).siblings().removeClass('cur')
+        	spans.eq(index).addClass('cur')
+        	index++
+        }
+        let T = setInterval(run,4000);
+        spans.click(function(){
+			clearInterval(T)
+			index = $(this).index()
+			run()
+		})
+
+		// banner.mouseover(function(){
+		// 	clearInterval(T)
+		// })
+		// banner.mouseout(function(){
+		// 	T = setInterval(run, 4000)
+		// })
+		let banner_two = $('#second_banner ul');
+		let list2 = $('#second_banner ul li');
+		let inx = 0;
+        function run2(){
+        	if(inx===list2.length) inx = 0;
+        	banner_two.animate({
+        		left: -1 * inx * .3 + 'rem'
+        	},1000)
+        	inx++
+        }
+        let T2 = setInterval(run2,1000);
 	</script>
 </body>
 </html>

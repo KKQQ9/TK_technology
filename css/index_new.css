@@ -22,6 +22,7 @@
 }
 .content .container > .banner,.content .container .banner > ul li,.content .container .banner > ul li img{
     height: 5.45rem;
+    width: 14.4rem;
 }
 .content .container .banner .list{
     position: absolute;
@@ -32,10 +33,11 @@
 .content .container .banner a.list-btn{
     margin: 0 .1rem;
     display: inline-block;
-    width: .11rem;
-    height: .11rem;
+    width: .21rem;
+    height: .21rem;
     border-radius: 50%;
     background-color: rgb(35, 149, 203);
+    cursor: pointer;
 }
 /* index start */
 .content .container .index{
